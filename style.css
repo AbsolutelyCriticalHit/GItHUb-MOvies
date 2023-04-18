@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+:root{
+    --primary-color: #22254b;
+    --secondary-color: #373b69;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--primary-color);
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--secondary-color);
+
+
+}
+header i{
+       color: white;
+}
+.search{
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    color: wheat;
+    font-size: 1rem;
+    
+}
+.search:focus{
+    outline: none;
+    background-color: var(--primary-color);
+
+}
+.search::placeholder{
+    color:#7378c5;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.Crd1 img{
+    height: 350px;
+    width: 280px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.Crd1{
+    margin: 1rem;
+    width: 280px;
+    height: 450px;
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.Crd1 h1{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Crd1 h3{
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
